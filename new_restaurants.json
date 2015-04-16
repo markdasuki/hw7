@@ -1,0 +1,77 @@
+{"restaurants": [
+	{
+		"name": "Chipotle",
+		"type": "Mexican",
+		"address": "800 Washington Ave SE Minneapolis, MN 55414",
+		"phone": "(612)378-7078",
+		"rating": "3",
+		"hours": [
+				{"day": "Mon-Sun", "time": "11:00am - 10:00pm"}
+		],
+		"url": "http://www.yelp.com/biz/chipotle-mexican-grill-minneapolis",
+		"picture": "chipotle.jpg",
+		"hint": "Chipotle Hint"
+	},
+	{
+		"name": "Five Guys",
+		"type": "American",
+		"address": "1413 4th St SE Minneapolis, MN 55414",
+		"phone": "(612)355-5500",
+		"rating": "3.5",
+		"hours": [
+				{"day": "Mon-Thu", "time": "11:00am - 10:00pm"},
+				{"day": "Fri", "time": "11:00am - 11:30pm"},
+				{"day": "Sat", "time": "11:00am - 3:00am"},
+				{"day": "Sun", "time": "10:00am - 10:00pm"}
+		],
+		"url": "http://www.yelp.com/biz/five-guys-burgers-and-fries-minneapolis",
+		"picture": "fiveguys.jpg",
+		"hint": "Five Guys Hint"
+	},
+	{
+		"name": "Kowloon",
+		"type": "Chinese",
+		"address": "935 Washington Ave SE Minneapolis, MN 55414",
+		"phone": "(612)623-3888",
+		"rating": "5",
+		"hours": [
+				{"day": "Mon-Thu", "time": "10:30am - 10:00pm"},
+				{"day": "Fri", "time": "10:30am - 11:00pm"},
+				{"day": "Sat-Sun", "time": "12:00am - 11:00pm"}
+		],
+		"url": "http://www.yelp.com/biz/kowloon-restaurant-minneapolis",
+		"picture": "kowloon.jpg",
+		"hint": "Kowloon Hint"
+	},
+	{
+		"name": "Bun Mi",
+		"type": "Vietnamese",
+		"address": "604 Washington Ave SE Minneapolis, MN 55414",
+		"phone": "(612)886-3286",
+		"rating": "4.5",
+		"hours": [
+				{"day": "Mon-Fri", "time": "11:00pm - 8:00pm"},
+				{"day": "Sat", "time": "11:00pm - 7:00pm"},
+				{"day": "Sun", "time": "Closed"}
+		],
+		"url": "http://www.yelp.com/biz/bun-mi-sandwiches-minneapolis-2",
+		"picture": "bunmi.jpg",
+		"hint": "Bun Mi Hint"
+	},
+	{
+		"name": "Pagoda",
+		"type": "Asian",
+		"address": "1417 SE 4th St Minneapolis, MN 55414",
+		"phone": "(612)378-4710",
+		"rating": "3.5",
+		"hours": [
+				{"day": "Mon-Thu", "time": "11:00am - 10:00pm"},
+				{"day": "Fri", "time": "11:00am - 12:00am"},
+				{"day": "Sat", "time": "10:00am - 12:00am"},
+				{"day": "Sun", "time": "10:00am - 11:00pm"}
+		],
+		"url": "http://www.yelp.com/biz/pagoda-minneapolis-4",
+		"picture": "pagoda.jpg",
+		"hint": "Pagoda Hint"
+	}
+]}

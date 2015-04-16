@@ -1,0 +1,189 @@
+#body1 {
+	background-color: #FF944D;
+}
+
+caption{
+	color: #FF1919;
+	font-weight: bold;
+}
+table, td, th {
+    border: 1px solid lightblue;
+}
+
+th {
+	background-color: #751975;
+	color: yellow;
+}
+
+td {
+	color: #003300;
+}
+
+table {
+    width: 100%;
+	background-color: #B36666;
+}
+
+#div1 {
+	width: 100px;
+	padding: 10px;
+	border: 1px solid #335CD6;
+	margin: 0;
+	background-color: #C2E0FF;
+	color: white;
+}
+
+#body2 {
+	background-image: url("sushi.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#div2 {
+	width: 100px;
+	padding: 10px;
+	border: 1px solid #335CD6;
+	margin: 0;
+	background-color: #C2E0FF;
+	color: white;
+}
+
+form {
+	font-weight:bold;
+	font-size: 125%;
+	color: white;
+	display: block;
+}
+
+form input {
+	margin: 8px 0 8px 0;
+}
+
+h1 {
+	color: white;
+	text-align:center;
+}
+p{
+	color: white;
+	text-align:center;
+}
+
+#divChipotle{
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #335CD6;
+	margin: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+	}
+	
+#chipotlePic{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#divPagoda{
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #335CD6;
+	margin: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+	}
+	
+#pagodaPic{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#divFiveGuys{
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #335CD6;
+	margin: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+	}
+	
+#fiveguysPic{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#divKowloon{
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #335CD6;
+	margin: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+	}
+	
+#kowloonPic{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#divBunMi{
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #335CD6;
+	margin: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+	}
+	
+#bunmiPic{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.pic{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.divPic{
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #335CD6;
+	margin: 0;
+	background-color: black;
+	color: white;
+	position: absolute;
+}

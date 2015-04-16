@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset = "utf-8">
+	<title>My 5 Favourite Restaurants</title>
+	<link rel="stylesheet" type="test/css" href="ExternalStyle.css">
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHIDSbO4iRBVFrFLt95owPqL-BCEgOXjY"></script>
+	<script type="text/javascript" src="button.js?2"></script>
+  </head>
+  
+<body id="body1">
+<table>
+  <caption>My 5 Favourite Restaurants</caption>
+  <tr>
+  
+    <th>Restaurant</th>
+    <th>Picture</th>
+    <th>Description</th>		
+    <th>Address</th>
+    <th>Contact Number</th>
+    <th>Rating</th>
+    <th>Weekly Schedule</th>
+	
+  </tr>
+  <tr>
+	
+    <td><a href="http://www.yelp.com/biz/chipotle-mexican-grill-minneapolis"><b>Chipotle</b></a></td>
+    <td id = "ChipotleButton"><button type="button" onclick="chipotle()">Picture</button></td>
+    <td>Mexican</td>		
+    <td id = "ChipotleLocation">800 Washington Ave SE
+				Minneapolis, MN 55414<br>
+				<input type="button" value="MapMe" onClick="findChipotle()"/></td>
+	<td>(612)378-7078</td>
+	<td>3</td>
+	<td>Mon-Sun, <i>11am-10pm</i></td>
+	
+  </tr>
+  <tr>
+  
+    <td><a href="http://www.yelp.com/biz/five-guys-burgers-and-fries-minneapolis"><b>Five Guys</b></a></td>
+    <td id = "FiveGuysButton"><button type="button" onclick="fiveguys()">Picture</button></td>
+    <td>American</td>		
+    <td id = "FiveGuysLocation">1413 4th St SE Minneapolis, MN 55414
+		<br><input type="button" value="MapMe" onClick="findFiveGuys()"/></td>
+	<td>(612)355-5500</td>
+	<td>3.5</td>
+	<td>Mon-Thu, <i>11am-10pm</i><br><br>
+		Fri, <i>11am-11:30pm</i><br><br>
+		Sat, <i>11am-3am</i><br><br>
+		Sun, <i>11am-10pm</i></td>
+		
+  </tr>
+  <tr>
+	
+	<td><a href="http://www.yelp.com/biz/kowloon-restaurant-minneapolis"><b>Kowloon</b></a></td>
+	<td id = "KowloonButton"><button type="button" onclick="kowloon()">Picture</button></td>
+	<td>Chinese</td>
+	<td id = "KowloonLocation">935 Washington Ave SE Minneapolis, MN 55414<br>
+		<input type="button" value="MapMe" onClick="findKowloon()"/></td>
+	<td>(612)623-3888</td>
+	<td>3.5</td>
+	<td>Mon-Thu, <i>10:30am-10pm</i><br><br>
+		Fri, <i>10:30am-11pm</i><br><br>
+		Sat-Sun, <i>12pm-11pm</i></td>
+		
+  </tr>
+  
+  <tr>
+  
+	<td><a href="http://www.yelp.com/biz/bun-mi-sandwiches-minneapolis-2"><b>Bun Mi Sandwiches</b></a></td>
+	<td id = "BunMiButton"><button type="button" onclick="bunmi()">Picture</button></td>
+	<td>Vietnamese</td>
+	<td id = "BunMiLocation">604 Washington Ave SE Minneapolis, MN 55414<br>
+		<input type="button" value="MapMe" onClick="findBunMi()"/></td>
+	<td>(612)886-3286</td>
+	<td>4</td>
+	<td>Mon-Fri, <i>11am-8pm</i><br><br>
+		Sat, <i>11am-7pm</i><br><br>
+		Sun, <i>Closed</i></td>
+		
+  </tr>
+  
+  <tr>
+	
+	<td><a href="http://www.yelp.com/biz/pagoda-minneapolis-4"><b>Pagoda</b></a></td>
+	<td id = "PagodaButton"><button type="button" onclick="pagoda()">Picture</button></td>
+	<td>Asian</td>
+	<td id = "PagodaLocation">1417 SE 4th St Minneapolis, MN 55414<br>
+		<input type="button" value="MapMe" onClick="findPagoda()"/></td>
+	<td>(612)378-4710</td>
+	<td>3</td>
+	<td>Mon-Thu, <i>11am-10pm</i><br><br>
+		Fri, <i>11am-12am</i><br><br>
+		Sat, <i>10am-12am</i><br><br>
+		Sun, <i>10am-11pm</i></td>
+		
+   </tr>
+	
+</table>
+<br>
+<div id ="div1"><a href="dasuk006form.html"><b>Click here to add info</b></a></div>
+<p>This page has been tested in Chrome</p>
+</body>
+</html>
